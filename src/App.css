@@ -1,0 +1,8 @@
+.header {
+  text-align: center;
+}
+
+html, body, #app, #root, #app>div {
+  height: 100%;
+  background: #121212;
+}
