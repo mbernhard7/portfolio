@@ -1,0 +1,48 @@
+.squash.card {
+    width: 288px;
+    height: auto;
+    display: block;
+    overflow: auto;
+    margin: .75rem;
+}
+
+.card {
+    background-color: #272727;
+    color: #f2f2f2;
+    border: 2px solid rgba(0, 0, 0, .125);
+    border-radius: .5rem;
+    box-shadow: 5px 5px 5px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    border: 3px solid #1fc7ff;
+    box-shadow: 1px 1px 3px black;
+    margin: 0 auto;
+}
+
+
+
+.squash.card .rect-img {
+    margin: 1rem;
+    object-fit: cover;
+    height: 171px;
+    width: 256px;
+}
+
+.squash.card .round-img {
+    margin: 1rem;
+    object-fit: contain;
+    border-radius: 50%;
+    height: 256px;
+    width: 256px;
+}
+
+.squash.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+.horizontal.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 272px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .horizontal.card {
+        width: 288px;
+    }
+}
+@media screen and (min-width: 751px) {
+    .caption {
+        margin-right: 1rem;
+    }
+}
+
+
+.horizontal.card img {
+    margin-bottom: 1rem;
+    object-fit: contain;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.horizontal.card .card-body {
+    min-width: 272px;
+    width: 0%;
+    display: inline-block;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+.textTableRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}

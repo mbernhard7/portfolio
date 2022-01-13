@@ -2,7 +2,41 @@
   text-align: center;
 }
 
+a {
+  color: #1fc7ff;
+}
+
 html, body, #app, #root, #app>div {
   height: 100%;
   background: #121212;
+}
+
+#background {
+  min-width: 320px;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.nav {
+  margin-bottom: 3rem;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  color: #666666
+}
+
+.divider hr {
+  flex: 1;
+  border: 3px dashed #666666;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+.divider h2 {
+  white-space: nowrap;
 }

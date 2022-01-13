@@ -1,9 +1,9 @@
 [
   {
-    "image": "",
+    "image": "todolist.jpg",
     "title": "To-Do List",
-    "date": "Sep '21 - Dec '21",
-    "description": "Developed a complex To-Do List application for CS124: Interaction Design at Harvey Mudd. Worked with a partner to develop the project over 3 months. Built with a React frontend, leverages firebase for authentication and data storage.",
+    "subtitle": "Sep '21 - Dec '21",
+    "text": "Developed a complex To-Do List application for CS124: Interaction Design at Harvey Mudd. Worked with a partner to develop the project over 3 months. Built with a React frontend, leverages firebase for authentication and data storage.",
     "links": [
       {
         "name": "Deployment",
@@ -16,10 +16,10 @@
     ]
   },
   {
-    "image": "",
+    "image": "nextup.jpg",
     "title": "NextUp",
-    "date": "Jun '20 - Aug '21",
-    "description": "Worked on developing a new app focused on providing users with the power to create, discover, engage with, and review music events in their area spanning from dorm parties to festivals. Conducted deep market analysis and created wireframes for UI as well as a product manual. Rigorously iterated on design and began implementation of MVP. Participated in HMC INQ, an incubator at Harvey Mudd that provides mentorship from alumni and various other resources.",
+    "subtitle": "Jun '20 - Aug '21",
+    "text": "Worked on developing a new app focused on providing users with the power to create, discover, engage with, and review music events in their area spanning from dorm parties to festivals. Conducted deep market analysis and created wireframes for UI as well as a product manual. Rigorously iterated on design and began implementation of MVP. Participated in HMC INQ, an incubator at Harvey Mudd that provides mentorship from alumni and various other resources.",
     "links": [
       {
         "name": "Deployment",
@@ -28,10 +28,10 @@
     ]
   },
   {
-    "image": "",
+    "image": "imagecolorizer.jpg",
     "title": "Image Colorizer",
-    "date": "Jan '21 - May '21",
-    "description": "Developed a web application that colorizes black and white images using a convolutional neural network. Created for CSCI121: Software Development at Harvey Mudd. Improved knowledge of JS, HTML, CSS, Flask, OpenCV, neural networks and web development in general.",
+    "subtitle": "Jan '21 - May '21",
+    "text": "Developed a web application that colorizes black and white images using a convolutional neural network. Created for CSCI121: Software Development at Harvey Mudd. Improved knowledge of JS, HTML, CSS, Flask, OpenCV, neural networks and web development in general.",
     "links": [
       {
         "name": "Deployment",
@@ -44,10 +44,10 @@
     ]
   },
   {
-    "image": "",
+    "image": "larapped.jpg",
     "title": "LA Rapped",
-    "date": "Sep '19 - May '20",
-    "description": "Performed year long collaborative research project through the Gould Center for Humanistic Studies on the trajectory of hip-hop music through a geographic perspective. Computationally collected data on hip hop music using Spotify API, Genius API, and historical Billboard Hot 100 data then performed data analysis to detect quantitative trends in hip-hop music overtime. Quantitative analysis was paired with qualitative analysis of my peers, to documenting the history, state, and future of hip-hop.",
+    "subtitle": "Sep '19 - May '20",
+    "text": "Performed year long collaborative research project through the Gould Center for Humanistic Studies on the trajectory of hip-hop music through a geographic perspective. Computationally collected data on hip hop music using Spotify API, Genius API, and historical Billboard Hot 100 data then performed data analysis to detect quantitative trends in hip-hop music overtime. Quantitative analysis was paired with qualitative analysis of my peers, to documenting the history, state, and future of hip-hop.",
     "links": [
       {
         "name": "Deployment",
