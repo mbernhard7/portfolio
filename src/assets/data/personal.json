@@ -11,6 +11,11 @@
   "social_links": [
     {
       "icon": "",
+      "name": "Resume",
+      "url": "/resume.pdf"
+    },
+    {
+      "icon": "",
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/milesbernhard/"
     },

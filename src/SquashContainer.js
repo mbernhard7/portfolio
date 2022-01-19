@@ -17,14 +17,11 @@ function SquashContainer(props) {
     });
 
     function makeColumns(width) {
-        let numCols = Math.floor((width-48)/320);
+        let numCols = Math.min(Math.floor((width-96)/320), props.data.length);
         numCols = numCols > 0 ? numCols : 1;
         let newColumns = [...Array(numCols)].map(c => []);
-        let colSizes = new Array(numCols).fill(0);
-        props.data.forEach(p=> {
-                const index = colSizes.indexOf(Math.min(...colSizes));
-                newColumns[index].push(p);
-                colSizes[index]+=(p.text.length/33)+12;
+        props.data.forEach((p, i)=> {
+                newColumns[i%numCols].push(p);
             }
         )
         return newColumns;

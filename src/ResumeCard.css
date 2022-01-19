@@ -1,0 +1,57 @@
+.resumeCard {
+    min-width: 288px;
+    max-width: min(90%, 800px);
+}
+
+.resumeCard .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumeCard img {
+    border: 3px solid #1fc7ff;
+    box-shadow: 1px 1px 3px black;
+    margin: 0 auto;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.headerRow {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imageCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resumeCard .card-title {
+    text-align: left;
+}
+
+.resumeCard .card-subtitle {
+    text-align: left;
+}
+
+.resumeCard .textCol {
+    margin-left: 2rem;
+}
+
+.resumeCard .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.resumeCard .card-text.shortText {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

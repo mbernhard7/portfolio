@@ -1,42 +1,74 @@
 import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
 import './App.css';
 import portfolio from "./assets/data/portfolio.json"
 import testimonials from "./assets/data/testimonials.json"
+import experiences from "./assets/data/experiences.json"
+import education from "./assets/data/education.json"
 import SquashContainer from "./SquashContainer";
-import {Accordion, Nav} from "react-bootstrap";
 import AboutMeCard from "./AboutMeCard";
+import ResumeCard from "./ResumeCard";
 
 function App() {
     const [tab, setTab] = useState("0")
 
+    function handleTab(t) {
+        setTab(t);
+        document.getElementById('tabs').scrollIntoView({behavior: "smooth", inline: "nearest"})
+        console.log('test');
+    }
+
     return <div id="background">
-        <Container className="p-5 mb-4 bg-light rounded-3">
-            <h1 className="header">Miles Bernhard</h1>
-        </Container>
-        <Nav justify variant="tabs" activeKey={tab} onSelect={(selectedKey) => setTab(selectedKey)}>
-            <Nav.Item>
-                <Nav.Link eventKey="0">About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="1">Resume</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="2">Portfolio</Nav.Link>
-            </Nav.Item>
-        </Nav>
-        {tab === "0" &&
-            <>
                 <AboutMeCard/>
-                <div className='divider'>
-                    <hr/>
-                    <h2>Testimonials</h2>
-                    <hr/>
+                <div id='tabs'>
+                    <h2 className={tab==="0" ? " tab activeTab" : "tab"}
+                        onClick={()=>handleTab("0")}
+                    >Resume</h2>
+                    <h2  className={tab==="1" ? "tab activeTab" : "tab"}
+                         onClick={()=>handleTab("1")}
+                    >Portfolio</h2>
+                    <h2  className={tab==="2" ? "tab activeTab" : "tab"}
+                         onClick={()=>handleTab("2")}
+                    >Testimonials</h2>
                 </div>
-                <SquashContainer data={testimonials} round={true}/>
-            </>
-        }
-        {tab === "2" && <SquashContainer data={portfolio}/>}
+                {tab === "0" &&
+                    <div className="contentWindow">
+                        <div className="divider">
+                            <hr/>
+                            <h2>Experiences</h2>
+                            <hr/>
+                        </div>
+                        {experiences.map(e =>
+                           <ResumeCard image={e.image}
+                                       title={e.title}
+                                       position={e.position}
+                                       date={e.date}
+                                       description={e.description}
+                           />
+                        )}
+                        <div className="divider">
+                            <hr/>
+                            <h2>Education</h2>
+                            <hr/>
+                        </div>
+                        {education.map(e =>
+                            <ResumeCard image={e.image}
+                                        title={e.title}
+                                        position={e.position}
+                                        date={e.date}
+                                        description={e.description}
+                            />
+                        )}
+                    </div>}
+                {tab === "1" &&
+                    <div className="contentWindow">
+                        <SquashContainer data={portfolio}/>
+                    </div>
+                }
+                {tab === "2" &&
+                    <div className="contentWindow">
+                        <SquashContainer data={testimonials} round={true}/>
+                    </div>
+                }
     </div>
 }
 
