@@ -47,7 +47,7 @@
     "image": "larapped.jpg",
     "title": "LA Rapped",
     "subtitle": "Sep '19 - May '20",
-    "text": "Performed year long collaborative research project through the Gould Center for Humanistic Studies on the trajectory of hip-hop music through a geographic perspective. Computationally collected data on hip hop music using Spotify API, Genius API, and historical Billboard Hot 100 data then performed data analysis to detect quantitative trends in hip-hop music overtime. Quantitative analysis was paired with qualitative analysis of my peers, to documenting the history, state, and future of hip-hop.",
+    "text": "Performed year long collaborative research project through the Gould Center for Humanistic Studies on the trajectory of hip-hop music through a geographic perspective. Computationally collected data on hip hop music using Spotify API, Genius API, and historical Billboard Hot 100 data then performed data analysis to detect quantitative trends in hip-hop music overtime. Quantitative analysis was paired with qualitative analysis of my peers, to document the history, state, and future of hip-hop.",
     "links": [
       {
         "name": "Deployment",
