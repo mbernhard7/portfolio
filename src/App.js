@@ -20,13 +20,13 @@ function App() {
     return <div id="background">
                 <AboutMeCard/>
                 <div id='tabs'>
-                    <h2 className={tab==="0" ? " tab activeTab" : "tab"}
+                    <h2 className={tab==="0" ? " tab activeTab" : "tab inactiveTab"}
                         onClick={()=>handleTab("0")}
                     >Resume</h2>
-                    <h2  className={tab==="1" ? "tab activeTab" : "tab"}
+                    <h2  className={tab==="1" ? "tab activeTab" : "tab inactiveTab"}
                          onClick={()=>handleTab("1")}
                     >Portfolio</h2>
-                    <h2  className={tab==="2" ? "tab activeTab" : "tab"}
+                    <h2  className={tab==="2" ? "tab activeTab" : "tab inactiveTab"}
                          onClick={()=>handleTab("2")}
                     >Testimonials</h2>
                 </div>
