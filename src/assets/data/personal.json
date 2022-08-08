@@ -1,12 +1,12 @@
 {
   "name": "Miles Bernhard",
   "image": "personal.jpg",
-  "short_description": "Student & Software Engineer",
-  "organization": "Claremont McKenna College '22",
-  "description": "I'm a student at Claremont McKenna College, graduating in 2022. I'm pursuing a double major in computer science (all classes taken at Harvey Mudd) and philosophy, as well as a certificate in Innovation and Entrepreneurship. I'm an incoming Software Engineer at Roku and will be working on the Customer Interface team. My passions include entrepreneurship, consumer technology, music technology, and digital ethics.",
+  "short_description": "Software Engineer",
+  "organization": "Roku",
+  "description": "I'm a Software Engineer at Roku working on the customer interface for the advertising platform. I graduated cum laude from Claremont McKenna College in 2022 with a double major in computer science (all classes taken at Harvey Mudd) and philosophy, as well as a certificate in innovation and entrepreneurship. My passions include entrepreneurship, consumer technology, music technology, and digital ethics.",
   "birthdate": "1999-10-27T00:00:00.000Z",
   "hometown": "Arlington, MA",
-  "residence": "Claremont, CA",
+  "residence": "Boston, MA",
   "email": "me@milesbernhard.com",
   "social_links": [
     {
