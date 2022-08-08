@@ -54,7 +54,6 @@
 .squash.card .card-text {
     text-align: left;
     overflow: hidden;
-    text-indent: 2rem;
     display: -webkit-box;
 }
 
