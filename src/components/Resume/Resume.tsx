@@ -10,14 +10,6 @@ export const Resume: React.FC = () => {
     const experienceList: TExperience[] = experiences;
     const educationsList: TEducation[] = educations;
 
-    useEffect(() => {
-        [...experienceList, ...educationsList]
-            .map(({ image }: TEducation | TExperience) => image)
-            .forEach((filename) => {
-                new Image().src = `${process.env.PUBLIC_URL}/images/${filename}`;
-            });
-    }, []);
-
     return (
         <Box
             display="flex"

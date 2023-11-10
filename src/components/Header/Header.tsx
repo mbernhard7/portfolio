@@ -73,7 +73,7 @@ export const Header: React.FC<{
                     }}
                 >
                     <Box display="flex" sx={{ position: "absolute", left: "12px", gap: "10px", alignItems: "center" }}>
-                        <Avatar alt="Miles Bernhard" src={`${process.env.PUBLIC_URL}/images/personal.jpg`} />
+                        <Avatar alt="Miles Bernhard" src={require(`../../assets/images/personal.jpg`)} />
                         <Typography variant="h5">Miles Bernhard</Typography>
                     </Box>
 

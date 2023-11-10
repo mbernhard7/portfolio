@@ -18,7 +18,7 @@ export const ResumeCard: React.FC<TExperience> = ({ title, image, position, date
         <Card sx={{ width: 1, minHeight: "72px" }} elevation={1}>
             <CardHeader
                 color="primary"
-                avatar={<Avatar alt={title} src={`${process.env.PUBLIC_URL}/images/${image}`} />}
+                avatar={<Avatar alt={title} src={require(`../../../assets/images/${image}`)} />}
                 title={title ? `${position} @ ${title}` : position}
                 subheader={date}
                 onClick={() => setExpanded(!expanded)}

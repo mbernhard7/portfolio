@@ -30,7 +30,7 @@ export const ProjectCard: React.FC<TProject> = ({ title, subtitle, image, text, 
             <CardMedia
                 sx={{ height: "200px" }}
                 component="img"
-                image={`${process.env.PUBLIC_URL}/images/${image}`}
+                image={require(`../../../assets/images/${image}`)}
                 alt={title}
             />
             <CardHeader

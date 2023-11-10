@@ -18,7 +18,7 @@ export const EducationCard: React.FC<TEducation> = ({ title, image, degree, date
         <Card sx={{ width: 1, minHeight: "72px" }} elevation={1}>
             <CardHeader
                 color="primary"
-                avatar={<Avatar alt={title} src={`${process.env.PUBLIC_URL}/images/${image}`} />}
+                avatar={<Avatar alt={title} src={require(`../../../assets/images/${image}`)} />}
                 title={title}
                 subheader={`${degree} - ${date}`}
                 onClick={() => setExpanded(!expanded)}

@@ -19,6 +19,7 @@ module.exports = {
     },
     rules: {
         "import/extensions": [0],
+        "import/no-dynamic-require": 0,
         "import/no-extraneous-dependencies": [0],
         "import/no-unresolved": [0],
         "import/prefer-default-export": [0],
@@ -29,6 +30,7 @@ module.exports = {
                 SwitchCase: 1
             }
         ],
+        "global-require": 0,
         "no-plusplus": [0],
         "no-shadow": [0],
         "prettier/prettier": [1],

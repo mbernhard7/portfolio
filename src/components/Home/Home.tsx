@@ -56,7 +56,7 @@ export const Home: React.FC = () => {
                 <CardMedia
                     component="img"
                     sx={{ width: 250, borderRadius: "50%", margin: "16px" }}
-                    src={`${process.env.PUBLIC_URL}/images/${image}`}
+                    src={require(`../../assets/images/${image}`)}
                     alt="Headshot"
                 />
                 <CardHeader sx={{ textAlign: "center" }} color="primary" title={name} subheader={shortDescription} />
