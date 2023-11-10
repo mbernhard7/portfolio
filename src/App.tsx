@@ -10,10 +10,13 @@ import { PageSlider } from "./components/PageSlider";
 import { Projects } from "./components/Projects";
 
 export default () => {
-    const [pageKey, setPageKey] = useState<EPage>(EPage.HOME);
-    const [offset, setOffset] = useState(HEADER_HEIGHT);
     const location = useLocation();
     const navigate = useNavigate();
+
+    const [pageKey, setPageKey] = useState<EPage>(
+        PAGES.find((page) => page.route === location?.pathname?.toLowerCase())?.key || EPage.HOME
+    );
+    const [offset, setOffset] = useState(HEADER_HEIGHT);
 
     useEffect(() => {
         const newPage = PAGES.find((page) => page.route === location.pathname.toLowerCase());
