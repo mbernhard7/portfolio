@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Box, Chip, Divider } from "@mui/material";
+import { useEffect } from "react";
 import experiences from "../../assets/data/experiences.json";
 import educations from "../../assets/data/education.json";
 import { ResumeCard, TExperience } from "./ResumeCard";
@@ -8,6 +9,14 @@ import { EducationCard, TEducation } from "./EducationCard";
 export const Resume: React.FC = () => {
     const experienceList: TExperience[] = experiences;
     const educationsList: TEducation[] = educations;
+
+    useEffect(() => {
+        [...experienceList, ...educationsList]
+            .map(({ image }: TEducation | TExperience) => image)
+            .forEach((filename) => {
+                new Image().src = `${process.env.PUBLIC_URL}/images/${filename}`;
+            });
+    }, []);
 
     return (
         <Box
