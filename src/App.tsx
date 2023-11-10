@@ -28,10 +28,7 @@ export default () => {
         <Box
             sx={{
                 height: "100vh",
-                width: 1,
-                backgroundImage: `url('${process.env.PUBLIC_URL}/images/rain.gif')`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover"
+                width: 1
             }}
         >
             <Box sx={{ width: "100%", height: "100%", backgroundColor: "#121212B0" }}>
