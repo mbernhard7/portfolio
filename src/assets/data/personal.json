@@ -1,14 +1,9 @@
 {
   "name": "Miles Bernhard",
   "image": "personal.jpg",
-  "short_description": "Software Engineer",
-  "organization": "Roku",
+  "shortDescription": "Software Engineer @ Roku",
   "description": "I'm a Software Engineer at Roku working on the customer interface for the advertising platform. I graduated cum laude from Claremont McKenna College in 2022 with a double major in computer science (all classes taken at Harvey Mudd) and philosophy, as well as a certificate in innovation and entrepreneurship. My passions include entrepreneurship, consumer technology, music technology, and digital ethics.",
-  "birthdate": "1999-10-27T00:00:00.000Z",
-  "hometown": "Arlington, MA",
-  "residence": "Boston, MA",
-  "email": "me@milesbernhard.com",
-  "social_links": [
+  "socialLinks": [
     {
       "icon": "",
       "name": "Resume",
@@ -24,14 +19,5 @@
       "name": "GitHub",
       "url": "https://github.com/mbernhard7"
     }
-  ],
-  "technical_skills": [
-
-  ],
-  "nontechnical_skills": [
-
-  ],
-  "interests": [
-
   ]
 }

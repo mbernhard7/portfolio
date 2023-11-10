@@ -2,7 +2,14 @@
   {
     "title": "Roku",
     "image": "roku.png",
-    "position": "Software Engineering Intern, Customer Interface",
+    "position": "Software Engineer",
+    "date": "Sep '22 - Present",
+    "description": "Working in Ad Engineering building out new ad management platform. Full stack responsibilities, working with React frontend and Node backend."
+  },
+  {
+    "title": "Roku",
+    "image": "roku.png",
+    "position": "Software Engineering Intern",
     "date": "Jun '21 - Aug '21",
     "description": "Developed dashboards for new analytics suite in enterprise Angular application for advertisers and publishers. Implemented new high-priority feature requested by stakeholders that provided users with preset report templates. Improved navigation and routing, rewrote test suites, performed code review, practiced partner programming. Technologies used: Angular, Typescript, HTML, CSS, Mocha, Sinon, RxJS, AWS, Jenkins, GitHub, git."
   },
@@ -14,16 +21,16 @@
     "description": "Developed user stories, product requirements, and wireframes for four new interfaces for customer facing product. Studied preexisting solutions and Facebook, Google, and Yelp API’s to define determinants of product-market fit. Interviewed customers and developers to inform designs, communicated with developers through implementation. Completed Ad-hoc data quality tasks, taking initiative to leverage Python scripting skills whenever possible."
   },
   {
-    "title": "Indigo Agriculture",
+    "title": "Indigo Ag",
     "image": "indigo.jpg",
-    "position": "Software Engineering Intern, GeoInnovation Team",
-    "date": "Jun '18 - May '20",
+    "position": "Software Engineering Intern",
+    "date": "Jun '19 - May '20",
     "description": "Automated ingestion of 10 international crop reports that drive customer-facing yield models, yielding ~5 times more data per report. Backfilled hundreds of historical crop reports increasing database size by ~1000 times. Implemented Python feature that successfully detected and alerted on missing or anomalous data with PagerDuty."
   },
   {
-    "title": "Indigo Agriculture",
+    "title": "Indigo Ag",
     "image": "indigo.jpg",
-    "position": "Software Engineering Intern, Developer Operations",
+    "position": "Software Engineering Intern",
     "date": "Jun '18 - May '19",
     "description": "Designed, built, and deployed a Slack application to interface with an in-house developer tools CLI (used daily). Built components for web testing suite and implemented new feature in CircleCI to report all build/deploy times. Created Lambda function to report customer activity and dashboards in Datadog to analyze collected data. Continued working remotely through academic year to develop a central project index for developers using React."
   },
@@ -35,7 +42,6 @@
     "description": "Implemented web-driven feature in Java backend to confirm customers’ businesses were bookable on publishers. Researched geotagging vendors and presented to team, created permutations of Alexa phrases using Python."
   },
   {
-    "title": "Self-Employed",
     "image": "flybuy.jpg",
     "position": "Online Clothing and Shoes Reseller",
     "date": "Jan '16 - May '18",
