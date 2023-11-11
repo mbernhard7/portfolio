@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Box, Chip, Divider } from "@mui/material";
-import { useEffect } from "react";
 import experiences from "../../assets/data/experiences.json";
 import educations from "../../assets/data/education.json";
 import { ResumeCard, TExperience } from "./ResumeCard";
