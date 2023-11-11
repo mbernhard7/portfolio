@@ -8,14 +8,14 @@ const theme = createTheme({
         MuiAppBar: {
             styleOverrides: {
                 root: {
-                    backgroundColor: "#121212B0"
+                    backgroundColor: "#121212F9"
                 }
             }
         },
         MuiPaper: {
             styleOverrides: {
                 root: {
-                    backgroundColor: "#121212B0"
+                    backgroundColor: "#121212F9"
                 }
             }
         },

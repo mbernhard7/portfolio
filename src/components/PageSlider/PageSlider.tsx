@@ -43,6 +43,6 @@ export const PageSlider: React.FC<TPageSliderProps> = ({ pages, index, offset })
                 );
             })}
         </Box> */
-        <Box sx={{ p: "15px" }}>{pages[index]}</Box>
+        <Box sx={{ p: `${15 + offset}px 15px 15px 15px` }}>{pages[index]}</Box>
     );
 };
