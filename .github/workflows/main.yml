@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Installing dependenices
-      run: npm i
+      run: npm i && git config --global user.name "mbernhard7" && git config --global user.email "me@milesbernhard.com"
 
     - name: Building website
       run: npm run build
