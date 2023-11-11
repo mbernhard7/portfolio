@@ -14,8 +14,10 @@ jobs:
     - name: Installing dependenices
       run: npm i && git config --global user.name "mbernhard7" && git config --global user.email "me@milesbernhard.com"
 
-    - name: Building website
+    - name: Building
       run: npm run build
       
-    - name: Deploying the static website to gh-pages
-      run: npm run deploy
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: build
