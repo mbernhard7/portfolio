@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Installing dependenices
+      run: npm i
+
+    - name: Building website
+      run: npm run build
+      
+    - name: Deploying the static website to gh-pages
+      run: npm run deploy
