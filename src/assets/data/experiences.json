@@ -1,10 +1,23 @@
 [
   {
+    "title": "ONE",
+    "image": "one.png",
+    "position": "Software Engineer",
+    "date": "Nov '23 - Present",
+    "description": "Working as a full-stack software engineer at fintech startup backed by  Walmart and Ribbit capital seeking to help people live healthier financial lives.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://www.one.app"
+      }
+    ]
+  },
+  {
     "title": "Roku",
     "image": "roku.png",
     "position": "Software Engineer",
-    "date": "Sep '22 - Present",
-    "description": "Working in Ad Engineering building out new ad management platform. Full stack responsibilities, working with React frontend and Node backend."
+    "date": "Sep '22 - Nov '23",
+    "description": "Worked as full-stack engineer developing features from database to frontend in new flagship self-service ad platform. Worked closely with product and engineers to make design and architectural decisions through alpha, beta, and GA. Led execution and documentation of integration with internal emailing service that is followed organization-wide. Technologies used: Typescript, React, Node.js, Prisma, Material UI, Cypress, Jest, micro apps and microservices."
   },
   {
     "title": "Roku",

@@ -1,6 +1,17 @@
 import * as React from "react";
-import { Avatar, Card, CardContent, CardHeader, Collapse, IconButton, Typography } from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
+import {
+    Avatar,
+    Card,
+    CardActions,
+    CardContent,
+    CardHeader,
+    Collapse,
+    IconButton,
+    Link,
+    Tooltip,
+    Typography
+} from "@mui/material";
+import { ExpandMore, Launch } from "@mui/icons-material";
 import { useState } from "react";
 
 export type TExperience = {
@@ -9,9 +20,10 @@ export type TExperience = {
     position: string;
     date: string;
     description: string;
+    links?: { url: string; name: string }[];
 };
 
-export const ResumeCard: React.FC<TExperience> = ({ title, image, position, date, description }) => {
+export const ResumeCard: React.FC<TExperience> = ({ title, image, position, date, description, links }) => {
     const [expanded, setExpanded] = useState<boolean>(false);
 
     return (
@@ -42,6 +54,15 @@ export const ResumeCard: React.FC<TExperience> = ({ title, image, position, date
                         {description}
                     </Typography>
                 </CardContent>
+                <CardActions>
+                    {links?.map(({ url }, i) => (
+                        <Tooltip key={i} title="Visit site">
+                            <Link aria-label="share" href={url} target="_blank">
+                                <Launch />
+                            </Link>
+                        </Tooltip>
+                    ))}
+                </CardActions>
             </Collapse>
         </Card>
     );

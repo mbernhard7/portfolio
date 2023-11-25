@@ -1,5 +1,5 @@
 import * as React from "react";
-import projects from "../../assets/data/portfolio.json";
+import projects from "../../assets/data/projects.json";
 import { ProjectCard, TProject } from "./ProjectCard";
 import { SquashStack } from "../SquashStack";
 
