@@ -9,7 +9,7 @@ export type TPageSliderProps = {
 
 export const PageSlider: React.FC<TPageSliderProps> = ({ pages, index, offset }) => {
     return (
-        /* <Box
+        <Box
             sx={{
                 position: "absolute",
                 overflowX: "hidden",
@@ -42,7 +42,7 @@ export const PageSlider: React.FC<TPageSliderProps> = ({ pages, index, offset })
                     </Box>
                 );
             })}
-        </Box> */
-        <Box sx={{ p: `${15 + offset}px 15px 15px 15px` }}>{pages[index]}</Box>
+        </Box>
+        // <Box sx={{ p: `${15 + offset}px 15px 15px 15px` }}>{pages[index]}</Box>
     );
 };
